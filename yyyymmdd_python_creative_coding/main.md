@@ -2,7 +2,7 @@
 marp: true
 theme: gaia
 class: invert
-header: '2026/11/03'
+header: '2026/11/05'
 paginate: true
 style: |
   section {
@@ -295,3 +295,22 @@ r = 90 + 40 * math.sin(2 * math.pi * (t / FRAMES + i / 4))  # 半径が波打つ
 * matplotlib: https://matplotlib.org/stable/
 * scipy: https://docs.scipy.org/doc/scipy/
 * ffmpeg: https://ffmpeg.org/
+
+---
+
+<!-- _class: refs invert -->
+
+## おすすめの書籍・記事
+
+**数学を知ると表現の幅が広がる**
+
+* 巴山竜来, 数学から創るジェネラティブアート, 技術評論社, 2019
+  数列やタイリングを学ぶ。コードは Processing: https://gihyo.jp/book/2019/978-4-297-10463-4
+* 巴山竜来, リアルタイムグラフィックスの数学, 技術評論社, 2022
+  ノイズや距離関数を学ぶ。コードは GLSL: https://gihyo.jp/book/2022/978-4-297-13034-3
+* Patricio Gonzalez Vivo, Jen Lowe, The Book of Shaders
+  シェーダの入門書。Web で読める: https://thebookofshaders.com/
+* Tyler Hobbs, Flow Fields
+  フローフィールドの作り方と応用: https://www.tylerxhobbs.com/words/flow-fields
+* Inigo Quilez, Articles
+  距離関数やノイズの技法集: https://iquilezles.org/articles/
